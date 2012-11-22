@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB5726815F26F590037C047 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB5726715F26F590037C047 /* UIKit.framework */; };
+		DAB5726A15F26F590037C047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB5726915F26F590037C047 /* Foundation.framework */; };
+		DAB5726C15F26F590037C047 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB5726B15F26F590037C047 /* CoreGraphics.framework */; };
+		DAB5727215F26F590037C047 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAB5727015F26F590037C047 /* InfoPlist.strings */; };
+		DAB5727415F26F590037C047 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5727315F26F590037C047 /* main.m */; };
+		DAB5727815F26F590037C047 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5727715F26F590037C047 /* AppDelegate.m */; };
+		DAB5727B15F26F590037C047 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5727A15F26F590037C047 /* ViewController.m */; };
+		DAB5727E15F26F590037C047 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB5727C15F26F590037C047 /* ViewController.xib */; };
+		DAB5728615F26F5A0037C047 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB5728515F26F5A0037C047 /* SenTestingKit.framework */; };
+		DAB5728715F26F5A0037C047 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB5726715F26F590037C047 /* UIKit.framework */; };
+		DAB5728815F26F5A0037C047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB5726915F26F590037C047 /* Foundation.framework */; };
+		DAB5729015F26F5A0037C047 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAB5728E15F26F5A0037C047 /* InfoPlist.strings */; };
+		DAB5729315F26F5A0037C047 /* Emitter_GeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5729215F26F5A0037C047 /* Emitter_GeneratorTests.m */; };
+		DAB5729E15F26F9E0037C047 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB5729D15F26F9E0037C047 /* star.png */; };
+		DAB572A015F270B20037C047 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB5729F15F270B20037C047 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB5728915F26F5A0037C047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB5725A15F26F590037C047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB5726215F26F590037C047;
+			remoteInfo = "Emitter Generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAB5726315F26F590037C047 /* Emitter Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emitter Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB5726715F26F590037C047 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DAB5726915F26F590037C047 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DAB5726B15F26F590037C047 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DAB5726F15F26F590037C047 /* Emitter Generator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Emitter Generator-Info.plist"; sourceTree = "<group>"; };
+		DAB5727115F26F590037C047 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAB5727315F26F590037C047 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAB5727515F26F590037C047 /* Emitter Generator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Emitter Generator-Prefix.pch"; sourceTree = "<group>"; };
+		DAB5727615F26F590037C047 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAB5727715F26F590037C047 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAB5727915F26F590037C047 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAB5727A15F26F590037C047 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAB5727D15F26F590037C047 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		DAB5728415F26F5A0037C047 /* Emitter GeneratorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emitter GeneratorTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB5728515F26F5A0037C047 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DAB5728D15F26F5A0037C047 /* Emitter GeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Emitter GeneratorTests-Info.plist"; sourceTree = "<group>"; };
+		DAB5728F15F26F5A0037C047 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAB5729115F26F5A0037C047 /* Emitter_GeneratorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Emitter_GeneratorTests.h; sourceTree = "<group>"; };
+		DAB5729215F26F5A0037C047 /* Emitter_GeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Emitter_GeneratorTests.m; sourceTree = "<group>"; };
+		DAB5729D15F26F9E0037C047 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		DAB5729F15F270B20037C047 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB5726015F26F590037C047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB572A015F270B20037C047 /* QuartzCore.framework in Frameworks */,
+				DAB5726815F26F590037C047 /* UIKit.framework in Frameworks */,
+				DAB5726A15F26F590037C047 /* Foundation.framework in Frameworks */,
+				DAB5726C15F26F590037C047 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB5728015F26F5A0037C047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB5728615F26F5A0037C047 /* SenTestingKit.framework in Frameworks */,
+				DAB5728715F26F5A0037C047 /* UIKit.framework in Frameworks */,
+				DAB5728815F26F5A0037C047 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB5725815F26F590037C047 = {
+			isa = PBXGroup;
+			children = (
+				DAB5726D15F26F590037C047 /* Emitter Generator */,
+				DAB5728B15F26F5A0037C047 /* Emitter GeneratorTests */,
+				DAB5726615F26F590037C047 /* Frameworks */,
+				DAB5726415F26F590037C047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB5726415F26F590037C047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5726315F26F590037C047 /* Emitter Generator.app */,
+				DAB5728415F26F5A0037C047 /* Emitter GeneratorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB5726615F26F590037C047 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5729F15F270B20037C047 /* QuartzCore.framework */,
+				DAB5726715F26F590037C047 /* UIKit.framework */,
+				DAB5726915F26F590037C047 /* Foundation.framework */,
+				DAB5726B15F26F590037C047 /* CoreGraphics.framework */,
+				DAB5728515F26F5A0037C047 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAB5726D15F26F590037C047 /* Emitter Generator */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5727615F26F590037C047 /* AppDelegate.h */,
+				DAB5727715F26F590037C047 /* AppDelegate.m */,
+				DAB5727915F26F590037C047 /* ViewController.h */,
+				DAB5727A15F26F590037C047 /* ViewController.m */,
+				DAB5727C15F26F590037C047 /* ViewController.xib */,
+				DAB5726E15F26F590037C047 /* Supporting Files */,
+			);
+			path = "Emitter Generator";
+			sourceTree = "<group>";
+		};
+		DAB5726E15F26F590037C047 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5729C15F26F9E0037C047 /* Images */,
+				DAB5726F15F26F590037C047 /* Emitter Generator-Info.plist */,
+				DAB5727015F26F590037C047 /* InfoPlist.strings */,
+				DAB5727315F26F590037C047 /* main.m */,
+				DAB5727515F26F590037C047 /* Emitter Generator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAB5728B15F26F5A0037C047 /* Emitter GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5729115F26F5A0037C047 /* Emitter_GeneratorTests.h */,
+				DAB5729215F26F5A0037C047 /* Emitter_GeneratorTests.m */,
+				DAB5728C15F26F5A0037C047 /* Supporting Files */,
+			);
+			path = "Emitter GeneratorTests";
+			sourceTree = "<group>";
+		};
+		DAB5728C15F26F5A0037C047 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5728D15F26F5A0037C047 /* Emitter GeneratorTests-Info.plist */,
+				DAB5728E15F26F5A0037C047 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAB5729C15F26F9E0037C047 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5729D15F26F9E0037C047 /* star.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB5726215F26F590037C047 /* Emitter Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB5729615F26F5A0037C047 /* Build configuration list for PBXNativeTarget "Emitter Generator" */;
+			buildPhases = (
+				DAB5725F15F26F590037C047 /* Sources */,
+				DAB5726015F26F590037C047 /* Frameworks */,
+				DAB5726115F26F590037C047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Emitter Generator";
+			productName = "Emitter Generator";
+			productReference = DAB5726315F26F590037C047 /* Emitter Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB5728315F26F5A0037C047 /* Emitter GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB5729915F26F5A0037C047 /* Build configuration list for PBXNativeTarget "Emitter GeneratorTests" */;
+			buildPhases = (
+				DAB5727F15F26F5A0037C047 /* Sources */,
+				DAB5728015F26F5A0037C047 /* Frameworks */,
+				DAB5728115F26F5A0037C047 /* Resources */,
+				DAB5728215F26F5A0037C047 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB5728A15F26F5A0037C047 /* PBXTargetDependency */,
+			);
+			name = "Emitter GeneratorTests";
+			productName = "Emitter GeneratorTests";
+			productReference = DAB5728415F26F5A0037C047 /* Emitter GeneratorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB5725A15F26F590037C047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Paul Thorsteinson";
+			};
+			buildConfigurationList = DAB5725D15F26F590037C047 /* Build configuration list for PBXProject "Emitter Generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DAB5725815F26F590037C047;
+			productRefGroup = DAB5726415F26F590037C047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB5726215F26F590037C047 /* Emitter Generator */,
+				DAB5728315F26F5A0037C047 /* Emitter GeneratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB5726115F26F590037C047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB5727215F26F590037C047 /* InfoPlist.strings in Resources */,
+				DAB5727E15F26F590037C047 /* ViewController.xib in Resources */,
+				DAB5729E15F26F9E0037C047 /* star.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB5728115F26F5A0037C047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB5729015F26F5A0037C047 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DAB5728215F26F5A0037C047 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB5725F15F26F590037C047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB5727415F26F590037C047 /* main.m in Sources */,
+				DAB5727815F26F590037C047 /* AppDelegate.m in Sources */,
+				DAB5727B15F26F590037C047 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB5727F15F26F5A0037C047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB5729315F26F5A0037C047 /* Emitter_GeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB5728A15F26F5A0037C047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB5726215F26F590037C047 /* Emitter Generator */;
+			targetProxy = DAB5728915F26F5A0037C047 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAB5727015F26F590037C047 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB5727115F26F590037C047 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DAB5727C15F26F590037C047 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB5727D15F26F590037C047 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		DAB5728E15F26F5A0037C047 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB5728F15F26F5A0037C047 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB5729415F26F5A0037C047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DAB5729515F26F5A0037C047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB5729715F26F5A0037C047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Emitter Generator/Emitter Generator-Prefix.pch";
+				INFOPLIST_FILE = "Emitter Generator/Emitter Generator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DAB5729815F26F5A0037C047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Emitter Generator/Emitter Generator-Prefix.pch";
+				INFOPLIST_FILE = "Emitter Generator/Emitter Generator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DAB5729A15F26F5A0037C047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Emitter Generator.app/Emitter Generator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Emitter Generator/Emitter Generator-Prefix.pch";
+				INFOPLIST_FILE = "Emitter GeneratorTests/Emitter GeneratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DAB5729B15F26F5A0037C047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Emitter Generator.app/Emitter Generator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Emitter Generator/Emitter Generator-Prefix.pch";
+				INFOPLIST_FILE = "Emitter GeneratorTests/Emitter GeneratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB5725D15F26F590037C047 /* Build configuration list for PBXProject "Emitter Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB5729415F26F5A0037C047 /* Debug */,
+				DAB5729515F26F5A0037C047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB5729615F26F5A0037C047 /* Build configuration list for PBXNativeTarget "Emitter Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB5729715F26F5A0037C047 /* Debug */,
+				DAB5729815F26F5A0037C047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAB5729915F26F5A0037C047 /* Build configuration list for PBXNativeTarget "Emitter GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB5729A15F26F5A0037C047 /* Debug */,
+				DAB5729B15F26F5A0037C047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB5725A15F26F590037C047 /* Project object */;
+}
